@@ -1,0 +1,21 @@
+.readmore {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 13px;
+      color: $color-green;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      img {
+        width: 19px;
+        filter: brightness(0) saturate(100%) invert(58%) sepia(50%) saturate(564%) hue-rotate(68deg) brightness(90%) contrast(90%);
+      }
+
+      &.post-link-agenda {
+        font-weight: normal;
+      }
+    }
+}

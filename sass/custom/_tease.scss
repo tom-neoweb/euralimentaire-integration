@@ -1,0 +1,47 @@
+.archive-articles {
+    margin-top: 60px;
+    flex-wrap: wrap;
+
+    .article {
+        padding: 10px;
+
+        .post {
+            border: 1px solid $color-gray;
+            padding: 18px 23px;
+
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .post-img {
+                    min-height: 108px;
+                    max-width: 108px;
+                }
+
+                .post-title {
+                    margin-top: 20px;
+                    margin-bottom: 8px;
+                    font-family: $font-family-base;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+            }
+
+            .post-content {
+                .post-excerpt {
+                    text-align: center;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                }
+            }
+
+            footer {
+                text-align: center;
+            }
+        }
+    }
+}
